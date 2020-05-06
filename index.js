@@ -18,10 +18,10 @@ class Circle {
 
   }
   set area(ar){
-    
+
   }
 
 
 
-  
+
 }
