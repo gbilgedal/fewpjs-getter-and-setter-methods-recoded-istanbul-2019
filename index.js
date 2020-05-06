@@ -20,8 +20,7 @@ class Circle {
 
   }
   set area(ar){
-    this.radius = Math.sqrt(ar/Math.PI)
-
+    this.radius = Math.sqrt(ar/Math.PI);
   }
 
 }
