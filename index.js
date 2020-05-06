@@ -12,16 +12,16 @@ class Circle {
     return this.radius*this.radius*Math.PI;
   }
   set diameter(dia){
+    this.radius = dia/2;
 
   }
   set circumference(cir){
+    this.radius = cir/(2*Math.PI);
 
   }
   set area(ar){
+    this.radius = Math.sqrt(ar/Math.PI)
 
   }
-
-
-
 
 }
